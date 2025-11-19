@@ -34,6 +34,7 @@ brew install eigen opencv sqlite openssl pkg-config
 
 ## 🛠️ Project Structure
 
+'''
 Neural Network C++/
 ├─ main.cpp # Entry point of the program
 ├─ neural_network.cpp
@@ -42,6 +43,7 @@ Neural Network C++/
 ├─ utils.h
 ├─ data/
 └─ .gitignore # Files and folders ignored by Git
+'''
 
 ---
 
