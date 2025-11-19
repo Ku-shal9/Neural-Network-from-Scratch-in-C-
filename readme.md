@@ -32,18 +32,20 @@ brew install eigen opencv sqlite openssl pkg-config
 
 ---
 
-## 🛠️ Project Structure
+## 🗂️ Project Structure
 
-'''
-Neural Network C++/
-├─ main.cpp # Entry point of the program
-├─ neural_network.cpp
-├─ neural_network.h
-├─ utils.cpp
-├─ utils.h
-├─ data/
-└─ .gitignore # Files and folders ignored by Git
-'''
+Neural Network C++
+|-- main.cpp # Entry point
+|-- layer.h # Neural network layer definitions
+|-- neural_network.h # Network class
+|-- functions.h # Helper functions
+|-- utils.h # Utility functions
+|-- login.h # Login or UI
+|-- Makefile # Compilation instructions
+|-- data/
+| `-- MNIST/
+|       `-- raw/ # Raw MNIST files (download from Kaggle)
+`-- .gitignore # Ignored files/folders
 
 ---
 
